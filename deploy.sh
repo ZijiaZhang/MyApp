@@ -1,3 +1,3 @@
-docker build -t Myapp .
-docker rm -f Myapp
-docker run -d -p 3000:3000 Myapp
+docker build -t myapp .
+docker rm -f myapp
+docker run -d -p 3000:3000 myapp
